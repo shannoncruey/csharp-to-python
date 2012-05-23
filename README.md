@@ -6,18 +6,19 @@ Python script for converting C# code to Python.
     5-1-2012 NSC
     
     When tasked with redeveloping an existing (and very robust) ASP.NET application
-    using Python, I quickly found a lack of converters available.  Several commercial
-    tools exists, as well as a handful of online services (one of which has been 
-    down for at least six months as of today.)
+    using Python, a search for converters yielded minimal useful results.  Several 
+    commercial tools exists, as well as a handful of online services (one of which has been 
+    down for at least six months as of today), but none were really working for the 
+    task at hand.
     
-    While prototyping and familiarizing myself with Python, I converted several pages
-    and webmethods by hand.  In doing so an repeatable process emerged.
+    While prototyping and familiarizing myself with Python, several pages
+    and webmethods were converted by hand.  In doing so a repeatable process emerged.
     
     Under the hood Python and C# have more differences than can be discussed, 
     however the pure syntax of a source file, line by line, is moderately translatable.
     
     This conversion script was created to speed up the repetitive refactoring operations
-    I was doing for each function in C#.  It greatly reduced my overall conversion time.
+    for each function in C#.  It greatly reduced overall conversion time.
     
     Keep in mind, since C# and Python are both OO languages, this process is by no means foolproof.
     
@@ -25,7 +26,7 @@ Python script for converting C# code to Python.
     easily converted, and this script does not attempt to do so.
     
     What it does is simple - find and replace operations on a block of source code, line by line.
-    Converting common C# language keywords to theiry Python equivalent.
+    Converting common C# language keywords to their Python equivalent.
     
     
     Use is simple:
